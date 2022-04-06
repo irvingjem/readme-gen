@@ -22,6 +22,9 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
     return `# ${data.title}
 
+## Description:
+    ${data.description}
+
     ${renderLicenseBadge(data.license)}
 
 ## Installation Instructions: 
@@ -29,6 +32,12 @@ function generateMarkdown(data) {
 
 ## Usage Instructions: 
     ${data.usage}
+
+## Tests:
+    ${data.test}
+
+## Contributors:
+    ${data.contributors}
 `;
 }
 
