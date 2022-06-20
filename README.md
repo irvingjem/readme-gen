@@ -6,6 +6,7 @@
 
 ## Table of Contents
 * [Installation](#installation)
+* [Demo](#demo)
 * [Usage](#usage)
 * [License](#license)
 * [Contrubuting](#contributing)
@@ -15,13 +16,17 @@
 
 
 ## Installation Instructions: 
-    npm init
+    npm install
+    node index.js
+
+## Demo
+![Command line instructions](./assets/imgs/Screenshot%202022-06-20%20140636.jpg)
 
 ## Usage Instructions: 
     node index.js
 
 ## Contributors:
-    NA    
+    Me :)   
 
 ## Tests:
     npm test
